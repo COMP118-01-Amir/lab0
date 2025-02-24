@@ -44,30 +44,30 @@
             switch (choice) {
                 case 1:
                     cout << "Enter 2 values: ";
-                    cin >> num1 >> num2;
-                    cout << "Sum is: " << sumTwoNumbers(num1, num2) << endl;
-                    break;
+                cin >> num1 >> num2;
+                cout << "Sum is: " << sumTwoNumbers(num1, num2) << endl;
+                break;
                 case 2:
-                    cout << "Enter teh radius: ";
-                    cin >> radius;
-                    cout << "Area is: " << areaOfCircle(radius) << endl;
-                    break;
+                    cout << "Enter the radius: ";
+                cin >> radius;
+                cout << "Area is: " << areaOfCircle(radius) << endl;
+                break;
                 case 3:
                     cout << "Enter the radius: ";
-                    cin >> radius;
-                    cout << "Circumference: " << circumferenceOfCircle(radius) << endl;
-                    break;
+                cin >> radius;
+                cout << "Circumference: " << circumferenceOfCircle(radius) << endl;
+                break;
                 case 4:
-                    cout << "Enter the VAT: ";
-                    cin >> vat;
+                    cout << "Enter the VAT (%): ";
+                cin >> vat;
                 cout << "Enter the price: ";
                 cin >> price;
-                    cout << "Price with VAT is: " << priceIncludingVAT(price, vat) << endl;
-                    break;
+                cout << "Price with VAT is: " << priceIncludingVAT(price, vat) << endl;
+                break;
                 case 5:
                     break;
-            default:
-                cerr << "Wrong choice!";
+                default:
+                    cerr << "Wrong choice!";
             }
 
 
